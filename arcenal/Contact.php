@@ -48,9 +48,9 @@
 							<li>
 								<a>About AICS</a>
 								<ul class="cbp-hssubmenu cbp-hssub-rows">
-									<li><a href="History.php"><img src="Pictures/169112.svg" alt="img07"/><span>History</span></a></li>
-									<li><a href="MVission.php"><img src="Pictures/mission.svg" alt="img08"/><span>Mission and Vision</span></a></li>
-									<li><a href="Facility.php"><img src="Pictures/facility.svg" alt="img09"/><span>Facility</span></a></li>
+									<li><a href="history.php"><img src="Pictures/169112.svg" alt="img07"/><span>History</span></a></li>
+									<li><a href="mission.php"><img src="Pictures/mission.svg" alt="img08"/><span>Mission and Vision</span></a></li>
+									<li><a href="teams.php"><img src="Pictures/facility.svg" alt="img09"/><span>Facility</span></a></li>
 								</ul>
 							</li>
 							<li>

@@ -2,13 +2,18 @@
 <!DOCTYPE html>
 	<html>
 		<head>
-			<title>Lowkey Esports</title>
+			<title>Lowkey Esports Philippines</title>
 			<link rel="stylesheet" type="text/css" href="CSS/login.css">
 			<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat|Quicksand&display=swap" rel="stylesheet">
+			<style>
+    body  {
+    background-image: url("Pictures/ph.jpg");
+    }
+</style>
 		</head>
 		<body>
 			<div class="pic">
-				<img class="logo" src="Pictures/lk.png" alt="">
+				<img class="logo" src="Pictures/lowkey.png" alt="">
 			</div>
 
 			<div class="reg">

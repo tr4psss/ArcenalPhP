@@ -38,7 +38,7 @@
 
 /* Main menu link style */
 .cbp-hsmenu > li > a {
-	color: #7c0606;
+	color: #ffffff;
 	font-size: 1.2em;
 	line-height: 3em;
 	display: inline-block;
@@ -103,14 +103,14 @@
 .cbp-hssubmenu > li a {
 	display: block;
 	text-align: center;
-	color: #7c0606;
+	color: #ffffff;
 	outline: none;
 	padding: 2em 1em 1em 1em;
 }
 
 .no-touch .cbp-hssubmenu > li a:hover,
 .no-touch .cbp-hssubmenu > li a:focus {
-	color: #7c0606;
+	color: #ffffff;
 }
 
 .cbp-hssubmenu > li a img {
@@ -181,7 +181,7 @@
 	}
 
 	.cbp-hsmenu > li {
-		border-top: 1px solid #7c0606;
+		border-top: 1px solid #ffffff;
 		text-align: center;
 		margin: 0 auto;
 		display: block;
@@ -207,7 +207,7 @@
 	}
 
 	.cbp-hssubmenu {
-		background: #7c0606;
+		background: #ffffff;
 		position: relative;
 		overflow: hidden;
 		height: 0;
