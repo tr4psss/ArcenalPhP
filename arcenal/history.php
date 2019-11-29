@@ -26,7 +26,7 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<style>
     body  {
-    background-image: url("Pictures/background.png");
+    background-image: url("Pictures/lowkeyback.jpg");
     }
 </style>
 </head>
@@ -59,14 +59,22 @@
 								</ul>
 							</li>
 							<li>
-								<a href="#">Database</a>
+								<a href="#">Add Database</a>
 								<ul class="cbp-hssubmenu">
-									<li><a href="Studentdb/index.php"><img src="Pictures/student.svg" alt="img10"/><span>Students' PortalDB</span></a></li>
-									<li><a href="Teacherdb/index.php"><img src="Pictures/teacher.svg" alt="img06"/><span>Teachers' PortalDB</span></a></li>
+									<li><a href="add.html"><img src="Pictures/academy.png" alt="img10"/><span>Lowkey Esports Academy Database</span></a></li>
+									<li><a href="add2.html"><img src="Pictures/player.png" alt="img06"/><span>Lowkey Esports Player Database</span></a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">View Database</a>
+								<ul class="cbp-hssubmenu">
+									<li><a href="index3.php"><img src="Pictures/academy.png" alt="img10"/><span>Lowkey Esports Academy Database</span></a></li>
+									<li><a href="index4.php"><img src="Pictures/player.png" alt="img06"/><span>Lowkey Esports Player Database</span></a></li>
 								</ul>
 							</li>
 							<li><a href="Contact.php">Contact</a></li>
 							<li>
+								
 							<div class="pcon">
 							<div class="textcon">
 								<p>You're logged in as <strong><?php echo $_SESSION['username']; ?>!</strong></p>

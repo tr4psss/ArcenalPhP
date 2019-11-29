@@ -1,7 +1,7 @@
 <?php
 
 $databaseHost = 'localhost';
-$databaseName = 'registration';
+$databaseName = 'player_db';
 $databaseUsername = 'root';
 $databasePassword = '';
 

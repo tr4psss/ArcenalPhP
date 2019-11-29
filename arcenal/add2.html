@@ -1,0 +1,143 @@
+
+<html>
+<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Lowkey Esports Philippines Academy</title>
+		<link rel="stylesheet" type="text/css" href="CSS/home.css" />
+		<link rel="stylesheet" type="text/css" href="CSS/navbar.css" />
+		<link rel="stylesheet" href="CSS/footer.css">
+		<link rel="stylesheet" href="CSS/contact.css">
+		<script src="JS/SlideOut.js"></script>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+  <style>
+		body  {
+		background-image: url("Pictures/lkb.png");
+		}
+	</style>
+</head>
+
+<body>
+		<div class="container">
+				<header class="clearfix">
+					<h1>Lowkey Esports Academy Philippines</h1>
+					
+					<nav>
+						<a href="home.php?logout='1'" data-info="Log out"><img class="loglogo" src="Pictures/logout.png"></a>
+					</nav>
+					
+				</header>
+					
+				<div class="main">
+						<nav class="cbp-hsmenu-wrapper" id="cbp-hsmenu-wrapper">
+							<div class="cbp-hsinner">
+								<ul class="cbp-hsmenu">
+									<li>
+										<a href="home.php">Home</a>
+									</li>
+									<li>
+										<a>About Lowkey Esports</a>
+										<ul class="cbp-hssubmenu cbp-hssub-rows">
+											<li><a href="history.php"><img src="Pictures/scroll.png" alt="img07"/><span>History</span></a></li>
+											<li><a href="mission.php"><img src="Pictures/mission.png" alt="img08"/><span>Mission</span></a></li>
+											<li><a href="teams.php"><img src="Pictures/team.png" alt="img09"/><span>Teams</span></a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="#">Add Database</a>
+										<ul class="cbp-hssubmenu">
+											<li><a href="add.html"><img src="Pictures/academy.png" alt="img10"/><span>Lowkey Esports Academy Database</span></a></li>
+											<li><a href="add.html"><img src="Pictures/player.png" alt="img06"/><span>Lowkey Esports Player Database</span></a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="#">View Database</a>
+										<ul class="cbp-hssubmenu">
+											<li><a href="index3.php"><img src="Pictures/academy.png" alt="img10"/><span>Lowkey Esports Academy Database</span></a></li>
+											<li><a href="index4.php"><img src="Pictures/player.png" alt="img06"/><span>Lowkey Esports Player Database</span></a></li>
+										</ul>
+									</li>
+									<li><a href="Contact.php">Contact</a></li>
+									<li>
+										
+									<div class="pcon">
+									<div class="textcon">
+										<p>You're logged in as <strong><?php echo $_SESSION['username']; ?>!</strong></p>
+									</div>
+									</div>
+									
+									</li>
+								</ul>
+		
+							</div>
+						</nav>
+					</div>
+				</div>
+	<br/><br/>
+
+	<form action="add.php" method="post" name="form1">
+		<table width="25%" border="0"  class="table table-bordered">
+			<tr> 
+				<td>Player ID</td>
+				<td><input type="text" name="studentid"></td>
+			</tr>
+			<tr> 
+				<td>Username</td>
+				<td><input type="text" name="fname"></td>
+			</tr>
+			<tr> 
+				<td>Email</td>
+				<td><input type="text" name="lname"></td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td><input type="text" name="gender"></td>
+			</tr>
+			<tr> 
+				<td>Birth Date</td>
+				<td><input type="text" name="birthdate"></td>
+			</tr>
+			<tr> 
+				<td>Address</td>
+				<td><input type="text" name="address"></td>
+			</tr>
+			<tr> 
+				<td>Contact</td>
+				<td><input type="text" name="contact"></td>
+			</tr>
+			<tr> 
+				<td></td>
+				<td><input type="submit" name="Submit" value="Join" class="btn btn-danger"></a></td>
+            </tr>
+            <td><button><a href="home.php">GO BACK</a></button></td>
+		</table>
+	</form>
+	<footer>
+			<img class="imgl"src="Pictures/lowkey.png" style>
+		</footer>
+		<div class="content">
+					  <!-- notification message -->
+					  <?php if (isset($_SESSION['success'])) : ?>
+					  <div class="error success" >
+						  <h3>
+						  <?php 
+							  echo $_SESSION['success']; 
+							  unset($_SESSION['success']);
+						  ?>
+						  </h3>
+					  </div>
+					  <?php endif ?>
+
+	  <script src="js/SlideOutMenu.min.js"></script>
+			  <script>
+				  var menu = new cbpHorizontalSlideOutMenu( document.getElementById( 'cbp-hsmenu-wrapper' ) );
+			  </script>
+</body>
+</html>
+
